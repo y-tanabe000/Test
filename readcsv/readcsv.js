@@ -9,6 +9,7 @@ module.exports = function(RED) {
 
         fs.createReadStream(__dirname + 'test.csv')
         .pipe(process.stdout);
+        node.send(msg);
     }
     
     RED.nodes.registerType("readcsv",readcsv);
