@@ -1,0 +1,9 @@
+{
+    "name" : "readcsv",
+    "node-red" : {
+        "nodes": {
+            "readcsv": "readcsv.js"
+        }
+    }
+}
+    
