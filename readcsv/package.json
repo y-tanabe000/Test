@@ -1,9 +1,15 @@
 {
-    "name" : "readcsv",
-    "node-red" : {
-        "nodes": {
-            "readcsv": "readcsv.js"
+    "name": "readcsv",
+    "version": "0.0.1",
+    "description": "A sample node for node-red",
+    "dependencies": {},
+    "keywords": [
+        "readcsv"
+    ],
+    "node-red": {
+        "nodes": {
+            "readcsv": "readcsv.js"
         }
     }
 }
-    
+
